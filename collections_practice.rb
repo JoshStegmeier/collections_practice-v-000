@@ -62,6 +62,6 @@ def sum_array(array)
   total = 0
   i = 0
 
-  array.each { |x| total += x}
+  array.inject(0){|total,x| total + x }
   total
 end
