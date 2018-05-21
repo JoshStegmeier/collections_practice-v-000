@@ -62,9 +62,6 @@ def sum_array(array)
   total = 0
   i = 0
 
-  while i < array.size
-    total = total + array.pop
-    i += 1
-  end
+  array.each { |x| total += x}
   total
 end
