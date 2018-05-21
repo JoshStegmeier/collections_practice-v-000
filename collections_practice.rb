@@ -28,12 +28,18 @@ def kesha_maker(array)
   i = 0
 
   while i < array.size
-    array[i].sub(/[sS]/, "$")
+    array[i][2] = "$"
     i += 1
   end
   array
 end
 
 def kesha_maker_improved(array)
+  i = 0
 
+  while i < array.size
+    array[i].sub(/[sS]/, "$")
+    i += 1
+  end
+  array
 end
