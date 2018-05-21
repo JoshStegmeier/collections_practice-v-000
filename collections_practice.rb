@@ -44,3 +44,16 @@ def kesha_maker_improved(array)
   end
   newArray
 end
+
+def find_a(array)
+  newArray = []
+  i = 0
+
+  while i < array.size
+    if array[i][0] == "a"
+      newArray << array[i]
+    end
+    i += 1
+  end
+  newArray
+end
