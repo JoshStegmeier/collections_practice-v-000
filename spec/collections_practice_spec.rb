@@ -56,7 +56,7 @@ describe 'collections practice' do
   describe '#kesha_maker_improved' do
     # DO NOT USE .collect or .map. use .each to build a new array, like in the "my_each" lab!
     it 'taking an array as an input, change any "S" in each element to a dollar sign.' do
-      expect(kesha_maker_improved(["blake", "ashley", "scott"])).to eq(["bl$ke", "as$ley", "sc$tt"])
+      expect(kesha_maker_improved(["blake", "ashley", "scott"])).to eq(["blake", "a$hley", "$cott"])
     end
   end
 
