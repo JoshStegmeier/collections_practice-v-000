@@ -23,3 +23,13 @@ end
 def reverse_array(array)
   newArray = array.reverse
 end
+
+def kesha_maker(array)
+  i = 0
+
+  while i < array.size
+    array[i][2] = "$"
+    i += 1
+  end
+  array
+end
