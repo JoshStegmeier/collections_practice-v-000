@@ -57,3 +57,14 @@ def find_a(array)
   end
   newArray
 end
+
+def sum_array(array)
+  total = 0
+  i = 0
+
+  while i < array.size
+    total += array.pop
+    i += 1
+  end
+  total
+end
