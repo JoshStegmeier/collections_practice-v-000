@@ -63,7 +63,7 @@ def sum_array(array)
   i = 0
 
   while i < array.size
-    total += array.pop
+    total + array.pop
     i += 1
   end
   total
